@@ -1,10 +1,10 @@
 using System;
 
-class SampleClass
+class ClaseEjemplo
 {
-    public void SayHello()
+    public void Hola()
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Hola mundo!");
     }
 }
 
@@ -12,7 +12,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        SampleClass sampleClass1 = new SampleClass();  // Create an object
-        sampleClass1.SayHello();                       // Call a method
+        ClaseEjemplo ClaseEjemplo1 = new ClaseEjemplo();  // Crea un objeto
+        ClaseEjemplo1.Hola();                       // Llama al metodo
     }
 }
