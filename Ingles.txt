@@ -2,9 +2,9 @@ using System;
 
 class SampleClass
 {
-    public void SayHello()
+    public void SayHello(string mensaje)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine(mensaje);
     }
 }
 
@@ -13,6 +13,6 @@ class Program
     static void Main(string[] args)
     {
         SampleClass sampleClass1 = new SampleClass();  // Create an object
-        sampleClass1.SayHello();                       // Call a method
+        sampleClass1.SayHello("Hola mundo");                       // Call a method
     }
 }
