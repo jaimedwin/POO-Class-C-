@@ -1,0 +1,18 @@
+using System;
+
+class SampleClass
+{
+    public void SayHello()
+    {
+        Console.WriteLine("Hello, World!");
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        SampleClass sampleClass1 = new SampleClass();  // Create an object
+        sampleClass1.SayHello();                       // Call a method
+    }
+}
